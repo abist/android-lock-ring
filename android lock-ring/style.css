@@ -1,0 +1,22 @@
+#draggable {
+  width: 100px;
+  height: 100px;
+  top: 35%;
+  text-align: center;
+  padding: 0.5em;
+  left: 35%;
+  float: left;
+}
+
+#circle{
+    width: 400px;
+    height: 400px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    border-radius: 200px;
+    border: 1px solid #444;
+    text-align: center;
+    margin-top: 33%;
+    margin-left: 33%;
+    text-align: center;
+}
