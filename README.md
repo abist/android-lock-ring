@@ -3,5 +3,5 @@ This is a mock up of the Lock Ring screen in Android 4.3+ in HTML5, CSS and JQue
 
 What it looks like -
 
-![alt tag](https://raw.github.com/abist/android-lock-ring/android-lock-ring/example.png)
+![Alt tag](https://github.com/abist/android-lock-ring/blob/master/android-lock-ring/example.png)
 
