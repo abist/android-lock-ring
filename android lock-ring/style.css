@@ -1,42 +1,51 @@
-#draggable {
-  width: 70px;
-  height: 70px;
-  top: 35%;
-  left: 43%;
-  text-align: center;
-  padding: 0.5em;
+body {
+  background: black;
 }
 
-#ring {
-  left: 15%;
+#draggable {
+  width: 30px;
+  height: 30px;
+  top: 18%;
+  left: 44%;
+  text-align: center;
+  padding: 0.5em;
+  font-size: 50px;
 }
+
 
 #circle{
     width: 600px;
     height: 600px;
-    left: 15%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    border: 1px solid #444;
+    border: 1px dotted white;
     text-align: center;
 }
 
-#fb, #google, #twitter, #github {
-  font-size: 20px;
+#unlock, #camera, #headphones, #phone, #draggable {
+  font-size: 50px;
   position: relative;
+  color: white;
 }
 
-#google {
-  top: 40%;
+#unlock {
+  top: 38%;
   float: right;
+  right: 5%;
 }
 
-#github {
-  top: 40%;
+#camera {
+  top: 5%;
+}
+
+#phone {
+  top: 28%;
   float: left;
+  left: 5%;
 }
 
-#twitter {
-  top: 92%;
+#headphones {
+  top: 78%;
+  left: 5%;
 }
