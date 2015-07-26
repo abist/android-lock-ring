@@ -1,0 +1,51 @@
+body {
+  background: black;
+}
+
+#draggable {
+  width: 30px;
+  height: 30px;
+  top: 18%;
+  left: 44%;
+  text-align: center;
+  padding: 0.5em;
+  font-size: 50px;
+}
+
+
+#circle{
+    width: 600px;
+    height: 600px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px dotted white;
+    text-align: center;
+}
+
+#unlock, #camera, #headphones, #phone, #draggable {
+  font-size: 50px;
+  position: relative;
+  color: white;
+}
+
+#unlock {
+  top: 38%;
+  float: right;
+  right: 5%;
+}
+
+#camera {
+  top: 5%;
+}
+
+#phone {
+  top: 28%;
+  float: left;
+  left: 5%;
+}
+
+#headphones {
+  top: 78%;
+  left: 5%;
+}
